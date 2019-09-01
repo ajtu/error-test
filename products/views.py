@@ -16,3 +16,4 @@ def error(request):
 def new(request):
     return HttpResponse("New " + productname + " has arrived")
 
+
